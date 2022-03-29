@@ -1,0 +1,66 @@
+2022-03-29T13:03:12.801274748+05:30 stdout F HOST_DIR=
+2022-03-29T13:03:12.801295832+05:30 stdout F SERVICE_NAME=
+2022-03-29T13:03:12.801299825+05:30 stdout F INSTANCE_NAME=default
+2022-03-29T13:03:12.801303147+05:30 stdout F Running in a container
+2022-03-29T13:03:12.803525612+05:30 stdout F /health endpoint access set to Anonymous
+2022-03-29T13:03:12.803546116+05:30 stdout F /metrics endpoint access set to Anonymous
+2022-03-29T13:03:12.9252341+05:30 stdout F [bin] Starting a plain Tanuki process...
+2022-03-29T13:03:12.99842337+05:30 stdout F Running Software AG Integration Server 10.7 (default)...
+2022-03-29T13:03:13.983512791+05:30 stdout F wrapper  | Base configuration file is /opt/softwareag/profiles/IS_default/configuration/wrapper.conf
+2022-03-29T13:03:13.983536641+05:30 stdout F wrapper  | Found #include file in /opt/softwareag/profiles/IS_default/configuration/wrapper.conf: %OSGI_INSTALL_AREA%/configuration/wrapper-license.conf
+2022-03-29T13:03:13.983549119+05:30 stdout F wrapper  |   After environment variable replacements: /opt/softwareag/profiles/IS_default/configuration/wrapper-license.conf
+2022-03-29T13:03:13.983552937+05:30 stdout F wrapper  |   Reading included configuration file, /opt/softwareag/profiles/IS_default/configuration/wrapper-license.conf
+2022-03-29T13:03:13.983555887+05:30 stdout F wrapper  | Found #include file in /opt/softwareag/profiles/IS_default/configuration/wrapper.conf: %OSGI_INSTALL_AREA%/configuration/custom_wrapper.conf
+2022-03-29T13:03:13.98355889+05:30 stdout F wrapper  |   After environment variable replacements: /opt/softwareag/profiles/IS_default/configuration/custom_wrapper.conf
+2022-03-29T13:03:13.983568099+05:30 stdout F wrapper  |   Reading included configuration file, /opt/softwareag/profiles/IS_default/configuration/custom_wrapper.conf
+2022-03-29T13:03:13.983571012+05:30 stdout F wrapper  | --> Wrapper Started as Console
+2022-03-29T13:03:13.983574387+05:30 stdout F ]0;Software AG Integration Server 10.7 (default)wrapper  | Java Service Wrapper Standard Edition 64-bit 3.5.43
+2022-03-29T13:03:13.983577684+05:30 stdout F wrapper  |   Copyright (C) 1999-2020 Tanuki Software, Ltd. All Rights Reserved.
+2022-03-29T13:03:13.983580791+05:30 stdout F wrapper  |     http://wrapper.tanukisoftware.com
+2022-03-29T13:03:13.983585691+05:30 stdout F wrapper  |   Licensed to Software AG USA, Inc. for Software AG Integration Server
+2022-03-29T13:03:13.983588644+05:30 stdout F wrapper  | 
+2022-03-29T13:03:13.983591318+05:30 stdout F wrapper  | Launching a JVM...
+2022-03-29T13:03:13.983596459+05:30 stdout F jvm 1    | WrapperManager: Initializing...
+2022-03-29T13:03:13.983599437+05:30 stdout F jvm 1    | [ProxyLogManager] Taking over JUL
+2022-03-29T13:03:13.98360188+05:30 stdout F jvm 1    | [ProxyLogManager] readConfiguration() -> com.softwareag.platform.jul.proxy.DefaultLogManager@3a71f4dd
+2022-03-29T13:03:13.983612616+05:30 stdout F jvm 1    | Debug options:
+2022-03-29T13:03:13.983615814+05:30 stdout F jvm 1    |     file:/opt/softwareag/IntegrationServer/instances/../../profiles/IS_default/bin/.options not found
+2022-03-29T13:03:13.983618514+05:30 stdout F jvm 1    | !SESSION 2022-03-29 07:33:13.696 -----------------------------------------------
+2022-03-29T13:03:13.983621676+05:30 stdout F jvm 1    | eclipse.buildId=unknown
+2022-03-29T13:03:13.983624386+05:30 stdout F jvm 1    | java.version=1.8.0_261
+2022-03-29T13:03:13.983629407+05:30 stdout F jvm 1    | java.vendor=Azul Systems, Inc.
+2022-03-29T13:03:13.983633674+05:30 stdout F jvm 1    | BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+2022-03-29T13:03:13.983643121+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983645769+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.locations 1 0 2022-03-29 07:33:13.763
+2022-03-29T13:03:13.983648479+05:30 stdout F jvm 1    | !MESSAGE Registering the location resolver hooks.
+2022-03-29T13:03:13.983651423+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983654187+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.mirrors 1 0 2022-03-29 07:33:13.764
+2022-03-29T13:03:13.983657347+05:30 stdout F jvm 1    | !MESSAGE Registering the mirror bundle management hooks.
+2022-03-29T13:03:13.983675919+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983679151+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.shutdown 1 0 2022-03-29 07:33:13.767
+2022-03-29T13:03:13.983681835+05:30 stdout F jvm 1    | !MESSAGE Registering the shutdown hook.
+2022-03-29T13:03:13.98368442+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983691754+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.locations 1 0 2022-03-29 07:33:13.922
+2022-03-29T13:03:13.983694652+05:30 stdout F jvm 1    | !MESSAGE Created java temp directory /opt/softwareag/profiles/IS_default/workspace/temp
+2022-03-29T13:03:13.983697419+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983700133+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.locations 1 0 2022-03-29 07:33:13.923
+2022-03-29T13:03:13.983703082+05:30 stdout F jvm 1    | !MESSAGE Discovered location: osgi.user.area=file:/opt/softwareag/user/
+2022-03-29T13:03:13.983705646+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983708457+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.locations 1 0 2022-03-29 07:33:13.923
+2022-03-29T13:03:13.983710935+05:30 stdout F jvm 1    | !MESSAGE Discovered location: osgi.instance.area=file:/opt/softwareag/profiles/IS_default/workspace/
+2022-03-29T13:03:13.98371338+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983715628+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.locations 1 0 2022-03-29 07:33:13.924
+2022-03-29T13:03:13.983718011+05:30 stdout F jvm 1    | !MESSAGE Discovered location: osgi.configuration.area=file:/opt/softwareag/profiles/IS_default/configuration/
+2022-03-29T13:03:13.983720655+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983722882+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.locations 1 0 2022-03-29 07:33:13.924
+2022-03-29T13:03:13.983726826+05:30 stdout F jvm 1    | !MESSAGE Discovered location: osgi.install.area=file:/opt/softwareag/profiles/IS_default/
+2022-03-29T13:03:13.98372953+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.98373183+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.locations 1 0 2022-03-29 07:33:13.925
+2022-03-29T13:03:13.983734264+05:30 stdout F jvm 1    | !MESSAGE Discovered location: eclipse.home.location=file:/opt/softwareag/profiles/IS_default/
+2022-03-29T13:03:13.983736945+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983739325+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.locations 1 0 2022-03-29 07:33:13.927
+2022-03-29T13:03:13.983741651+05:30 stdout F jvm 1    | !MESSAGE Replacing system property sag.install.area->@url:osgi.install.area/../.. with sag.install.area->file:/opt/softwareag/
+2022-03-29T13:03:13.983744934+05:30 stdout F jvm 1    | 
+2022-03-29T13:03:13.983747173+05:30 stdout F jvm 1    | !ENTRY com.softwareag.platform.hook.locations 1 0 2022-03-29 07:33:13.929
+2022-03-29T13:03:13.983751612+05:30 stdout F jvm 1    | !MESSAGE Discovered location: sag.install.area=file:/opt/softwareag/
+2022-03-29T13:03:13.983754026+05:30 stdout F jvm 1    | 
